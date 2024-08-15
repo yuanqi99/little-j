@@ -3,18 +3,15 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.little</groupId>
-        <artifactId>little-cloud</artifactId>
+        <artifactId>little-api</artifactId>
         <version>${version}</version>
     </parent>
 
-    <artifactId>little-api</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>little-system-api</artifactId>
+    <packaging>jar</packaging>
 
-    <name>little-api</name>
-    <url>http://maven.apache.org</url>
-    <modules>
-        <module>little-system-api</module>
-    </modules>
+    <name>little-system-api</name>
+
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -22,10 +19,8 @@
 
     <dependencies>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>3.8.1</version>
-            <scope>test</scope>
+            <groupId>com.little</groupId>
+            <artifactId>little-common-j</artifactId>
         </dependency>
     </dependencies>
 </project>

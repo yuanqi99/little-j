@@ -37,5 +37,10 @@
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
 
+
+        <dependency>
+            <groupId>com.little</groupId>
+            <artifactId>little-redis-j</artifactId>
+        </dependency>
     </dependencies>
 </project>

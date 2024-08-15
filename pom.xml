@@ -181,7 +181,11 @@
                 <version>${version}</version>
             </dependency>
 
-
+            <dependency>
+                <groupId>com.little</groupId>
+                <artifactId>little-system-api</artifactId>
+                <version>${version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 

@@ -6,7 +6,6 @@ spring:
     password: root
 
   # nacos 配置
-
   cloud:
     nacos:
       # nacos 服务地址
@@ -17,3 +16,4 @@ spring:
         # 注册组
         group: DEFAULT_GROUP
         namespace: dev
+sp
