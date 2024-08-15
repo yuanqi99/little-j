@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/little-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/little-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/little-framerwork/little-common-j/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/little-framerwork/little-common-j/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/little-framerwork/little-db-j/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/little-framerwork/little-db-j/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/little-framerwork/little-export-j/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/little-framerwork/little-export-j/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/little-framerwork/little-redis-j/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/little-framerwork/little-redis-j/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/little-framerwork/little-security-j/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/little-framerwork/little-security-j/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/little-framerwork/little-web-j/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/little-framerwork/little-web-j/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/little-framerwork/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/little-framerwork/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/little-module/little-system/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/little-module/little-system/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/little-module/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/little-module/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/little-viso/little-nacos/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/little-viso/little-nacos/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/little-viso/little-seata-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/little-viso/little-seata-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/little-viso/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/little-viso/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
