@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.little</groupId>
+        <artifactId>little-cloud</artifactId>
+        <version>${version}</version>
+    </parent>
+
+    <artifactId>little-framerwork</artifactId>
+    <packaging>pom</packaging>
+
+    <name>little-framerwork</name>
+    <url>http://maven.apache.org</url>
+    <modules>
+        <module>little-redis-j</module>
+        <module>little-common-j</module>
+        <module>little-security-j</module>
+        <module>little-export-j</module>
+        <module>little-web-j</module>
+        <module>little-db-j</module>
+    </modules>
+
+    <dependencies>
+
+    </dependencies>
+</project>
