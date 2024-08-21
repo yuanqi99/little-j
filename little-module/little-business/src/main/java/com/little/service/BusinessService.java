@@ -9,4 +9,5 @@ package com.little.service;
 
 public interface BusinessService
 {
+    public void purchase(String userId, String commodityCode, int orderCount);
 }

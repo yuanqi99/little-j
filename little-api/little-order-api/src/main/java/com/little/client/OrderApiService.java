@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 @FeignClient(name = ApiConstants.NAME,fallback = OrderApiFallbackFactory.class)
 public interface OrderApiService
 {
-    @RequestMapping("/create")
+    @RequestMapping("/order/create")
     void create(@RequestParam String userId, @RequestParam String commodityCode, @RequestParam int orderCount);
 }

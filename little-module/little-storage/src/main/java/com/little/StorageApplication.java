@@ -10,7 +10,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  *
  */
 @SpringBootApplication
-@MapperScan("com.little")
+@MapperScan("com.little.mapper")
 @EnableDiscoveryClient
 public class StorageApplication
 {

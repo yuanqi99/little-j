@@ -15,10 +15,17 @@
 
     <dependencies>
 
+
         <dependency>
             <groupId>com.little</groupId>
             <artifactId>little-db-j</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>com.little</groupId>
+            <artifactId>little-common-j</artifactId>
+        </dependency>
+
 
         <dependency>
             <groupId>com.little</groupId>
@@ -32,10 +39,9 @@
         </dependency>
 
         <dependency>
-            <groupId>com.little</groupId>
-            <artifactId>little-common-j</artifactId>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-loadbalancer</artifactId>
         </dependency>
-
 
         <dependency>
             <groupId>com.baomidou</groupId>

@@ -5,7 +5,7 @@ import com.little.api.client.AccountApiService;
 import com.little.domain.SatOrderTbl;
 import com.little.mapper.SatOrderTblMapper;
 import com.little.service.ISatOrderTblService;
-import io.seata.core.context.RootContext;
+//import io.seata.core.context.RootContext;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -35,7 +35,7 @@ public class SatOrderTblServiceImpl extends ServiceImpl<SatOrderTblMapper, SatOr
     @Override
     public SatOrderTbl create(String userId, String commodityCode, int orderCount)
     {
-        log.info("Order Service Begin ... xid: " + RootContext.getXID());
+//        log.info("Order Service Begin ... xid: " + RootContext.getXID());
 
         // 计算订单金额
         int orderMoney = calculate(commodityCode, orderCount);

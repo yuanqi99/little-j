@@ -3,7 +3,11 @@ package com.little.service.impl;
 import com.little.client.OrderApiService;
 import com.little.client.StorageApiService;
 import com.little.service.BusinessService;
+import lombok.AllArgsConstructor;
+import org.springframework.stereotype.Service;
 
+@Service
+@AllArgsConstructor
 public class BusinessServiceImpl implements BusinessService
 {
 

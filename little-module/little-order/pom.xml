@@ -47,16 +47,18 @@
             <artifactId>little-account-api</artifactId>
         </dependency>
 
-        <!-- SpringBoot Seata -->
-        <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-seata</artifactId>
-        </dependency>
-        <!-- 负载均衡器 -->
+
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-loadbalancer</artifactId>
         </dependency>
+
+        <!--        &lt;!&ndash; SpringBoot Seata &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>com.alibaba.cloud</groupId>-->
+<!--            <artifactId>spring-cloud-starter-alibaba-seata</artifactId>-->
+<!--        </dependency>-->
+        <!-- 负载均衡器 -->
 
 
 <!--        <dependency>-->
