@@ -1,0 +1,37 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/ruoyi-vue-pro?useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true&nullCatalogMeansCurrent=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+  # nacos 配置
+  cloud:
+    nacos:
+      # nacos 服务地址
+      server-addr: 127.0.0.1:8848
+      username: nacos
+      password: nacos
+      discovery:
+        # 注册组
+        group: DEFAULT_GROUP
+        namespace: dev
+
+# seata配置
+seata:
+  registry: # TC服务注册中心的配置，微服务根据这些信息去注册中心获取tc服务地址
+    # 参考tc服务自己的registry.conf中的配置
+    type: nacos
+    nacos: # tc
+      server-addr: 127.0.0.1:8848
+      namespace: dev
+      group: DEFAULT_GROUP
+      application: order-seata-server # tc服务在nacos中的服务名称
+  # 是否启用
+  enabled: true
+  # Seata 应用编号，默认为应用名
+  application-id: ${spring.application.name}
+  # Seata 事务组编号，用于 TC 集群名
+  tx-service-group: ${spring.application.name}-group
+  service:
+    vgroup-mapping:
+      litle-order-group: defalut

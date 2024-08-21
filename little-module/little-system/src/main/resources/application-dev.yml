@@ -16,4 +16,3 @@ spring:
         # 注册组
         group: DEFAULT_GROUP
         namespace: dev
-sp

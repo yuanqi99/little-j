@@ -13,6 +13,10 @@
   <name>${project.artifactId}</name>
   <modules>
     <module>little-system</module>
+      <module>little-storage</module>
+    <module>little-order</module>
+      <module>little-Account</module>
+      <module>little-business</module>
   </modules>
 
 

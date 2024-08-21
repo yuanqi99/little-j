@@ -1,0 +1,56 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.little</groupId>
+        <artifactId>little-module</artifactId>
+        <version>1.2-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>little-business</artifactId>
+    <packaging>jar</packaging>
+
+    <name>little-business</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.little</groupId>
+            <artifactId>little-db-j</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.little</groupId>
+            <artifactId>little-common-j</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.little</groupId>
+            <artifactId>little-web-j</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.little</groupId>
+            <artifactId>little-order-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.little</groupId>
+            <artifactId>little-account-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.little</groupId>
+            <artifactId>little-storage-api</artifactId>
+        </dependency>
+
+        <!--   spring cloud     -->
+        <!-- SpringCloud Alibaba Nacos -->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
+    </dependencies>
+</project>
