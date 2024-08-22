@@ -64,6 +64,7 @@
 
     <dependencyManagement>
         <dependencies>
+            <!--ALibaba 依赖版本-->
             <dependency>
                 <groupId>com.alibaba.cloud</groupId>
                 <artifactId>spring-cloud-alibaba-dependencies</artifactId>
@@ -71,7 +72,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-
+            <!--Cloud 依赖版本-->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
@@ -80,6 +81,7 @@
                 <scope>import</scope>
             </dependency>
 
+            <!--Springboot 依赖版本-->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
