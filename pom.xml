@@ -14,6 +14,10 @@
         <module>little-module</module>
         <module>little-api</module>
         <module>little-viso</module>
+        <module>springboot-pdf-demo</module>
+        <module>springboot-sa-token-demo</module>
+        <module>springboot-mybatis-plus-demo</module>
+        <module>springboot-apo-demo</module>
 
     </modules>
     <name>${project.artifactId}</name>
