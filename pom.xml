@@ -18,6 +18,7 @@
         <module>springboot-sa-token-demo</module>
         <module>springboot-mybatis-plus-demo</module>
         <module>springboot-apo-demo</module>
+        <module>springboot-stream-demo</module>
 
     </modules>
     <name>${project.artifactId}</name>
@@ -208,6 +209,44 @@
                 <groupId>com.little</groupId>
                 <artifactId>little-account-api</artifactId>
                 <version>${version}</version>
+            </dependency>
+
+
+
+
+            <!-- sa-token -->
+            <dependency>
+                <groupId>cn.dev33</groupId>
+                <artifactId>sa-token-spring-boot3-starter</artifactId>
+                <version>1.37.0</version>
+            </dependency>
+
+            <!-- sa-token 整合 redis （使用jackson序列化方式） -->
+            <dependency>
+                <groupId>cn.dev33</groupId>
+                <artifactId>sa-token-redis-jackson</artifactId>
+                <version>1.37.0</version>
+            </dependency>
+
+            <!-- Sa-Token插件：权限缓存与业务缓存分离 -->
+            <dependency>
+                <groupId>cn.dev33</groupId>
+                <artifactId>sa-token-alone-redis</artifactId>
+                <version>1.37.0</version>
+            </dependency>
+
+            <!-- Sa-Token 插件：整合SSO -->
+            <dependency>
+                <groupId>cn.dev33</groupId>
+                <artifactId>sa-token-sso</artifactId>
+                <version>1.37.0</version>
+            </dependency>
+
+            <!-- knife4j -->
+            <dependency>
+                <groupId>com.github.xiaoymin</groupId>
+                <artifactId>knife4j-openapi3-jakarta-spring-boot-starter</artifactId>
+                <version>4.5.0</version>
             </dependency>
 
         </dependencies>
